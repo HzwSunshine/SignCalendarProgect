@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ZWCalendarView">
+        <attr name="weekHeight" />
+        <attr name="weekTextSize" />
+        <attr name="weekBackgroundColor" />
+        <attr name="weekTextColor" />
+        <attr name="calendarTextSize" />
+        <attr name="calendarTextColor" />
+        <attr name="isShowOtherMonth" format="boolean" />
+        <attr name="otherMonthTextColor" format="color" />
+        <attr name="isShowLunar" />
+        <attr name="lunarTextColor" />
+        <attr name="lunarTextSize" />
+        <attr name="todayTextColor" />
+        <attr name="selectColor" format="color" />
+        <attr name="selectTextColor" format="color" />
+        <attr name="signIconSuccessId" format="integer" />
+        <attr name="signIconErrorId" format="integer" />
+        <attr name="signIconSize" format="dimension" />
+        <attr name="signTextColor" />
+        <attr name="limitFutureMonth" />
+    </declare-styleable>
+
+    <attr name="weekHeight" format="dimension" />
+    <attr name="weekTextSize" format="dimension" />
+    <attr name="weekBackgroundColor" format="color" />
+    <attr name="weekTextColor" format="color" />
+    <attr name="calendarTextSize" format="dimension" />
+    <attr name="calendarTextColor" format="color" />
+    <attr name="isShowLunar" format="boolean" />
+    <attr name="lunarTextColor" format="color" />
+    <attr name="lunarTextSize" format="dimension" />
+    <attr name="todayTextColor" format="color" />
+    <attr name="signTextColor" format="color" />
+    <attr name="limitFutureMonth" format="boolean" />
+
+    <declare-styleable name="ZWSignCalendarView">
+        <attr name="weekHeight" />
+        <attr name="weekTextSize" />
+        <attr name="weekBackgroundColor" />
+        <attr name="weekTextColor" />
+        <attr name="calendarTextSize" />
+        <attr name="calendarTextColor" />
+        <attr name="isShowLunar" />
+        <attr name="lunarTextColor" />
+        <attr name="lunarTextSize" />
+        <attr name="todayTextColor" />
+        <attr name="signColor" format="color" />
+        <attr name="signSize" format="dimension" />
+        <attr name="signTextColor" />
+        <attr name="limitFutureMonth" />
+    </declare-styleable>
+
+</resources>
