@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //代码选中一个日期
         show.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //前一月
         findViewById(R.id.calendar_previous).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //后一月
         findViewById(R.id.calendar_next).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //返回今天
         findViewById(R.id.tv_calendar_today).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
